@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:praktikum_03/bloc/contact_cubit.dart';
 import 'package:praktikum_03/views/home_screen.dart';
 
 void main() {
