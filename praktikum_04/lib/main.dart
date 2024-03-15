@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Nama "),
+                        Text("Nama"),
                         Text("Ananda Fikri Satriyo Hastomo")
                       ],
                     ),
@@ -99,7 +99,7 @@ class MyApp extends StatelessWidget {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Kelas "), Text("TI 3")],
+                      children: [Text("Kelas"), Text("TI 3")],
                     ),
                     SizedBox(
                       height: 15,
@@ -116,14 +116,14 @@ class MyApp extends StatelessWidget {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Dosen Wali "), Text("SDT")],
+                      children: [Text("Dosen Wali"), Text("SDT")],
                     ),
                     SizedBox(
                       height: 15,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Angkatan "), Text("2021")],
+                      children: [Text("Angkatan"), Text("2021")],
                     )
                   ],
                 ),
