@@ -14,7 +14,10 @@ class SecondPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(data ?? '', style: const TextStyle(fontSize: 20.0),),
+            Text(
+              data ?? '', 
+              style: const TextStyle(fontSize: 20.0),
+              ),
             Text(
               data2.toString() ?? '',
               style: const TextStyle(fontSize: 20.0),
