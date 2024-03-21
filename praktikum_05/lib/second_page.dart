@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 class SecondPage extends StatelessWidget {
   final String? data;
   const SecondPage({Key? key, this.data}) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     final data2 = ModalRoute.of(context)!.settings.arguments;
