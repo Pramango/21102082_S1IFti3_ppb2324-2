@@ -70,17 +70,41 @@ class PortfolioPage extends StatelessWidget {
               'Rp.10.450.000 / Rp.40.000.000',
               'Last saving March 27'),
           _portfolioCardList('assets/icons/camera.png', 'Camera', 0.5,
-              'Rp.10.430.000 / Rp.40.000.000', 'Last saving February 16'),
+              'Rp.2.500.000 / Rp.4.000.000', 'Last saving April 6'),
           _portfolioCardList('assets/icons/camera.png', 'Camera', 0.5,
-              'Rp.10.430.000 / Rp.40.000.000', 'Last saving February 16'),
+              'Rp.2.500.000 / Rp.4.000.000', 'Last saving April 6'),
           Container(
             margin: EdgeInsets.symmetric(
               vertical: 20,
               horizontal: 30,
             ),
             child: TextButton(
-              onPressed: (){},
-              child: Row(),
+              onPressed: () {},
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.add,
+                    size: 13,
+                    color: kLuckyBlue,
+                  ),
+                  Text(
+                    'add portfolio',
+                    style: kButton2.copyWith(
+                        color: kLuckyBlue, fontWeight: FontWeight.w600),
+                  ),
+                ],
+              ),
+              style: TextButton.styleFrom(
+                backgroundColor: kWhite,
+                padding: EdgeInsets.symmetric(vertical: 15),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(15),
+                  ),
+                ),
+                elevation: 4,
+              ),
             ),
           )
         ],
@@ -101,7 +125,7 @@ class PortfolioPage extends StatelessWidget {
         right: 30,
         top: 20,
       ),
-      padding: EdgeInsets.fromLTRB(15, 19, 15, 14),
+      padding: EdgeInsets.fromLTRB(15, 19, 15, 10),
       constraints: BoxConstraints.expand(
         height: 130,
       ),

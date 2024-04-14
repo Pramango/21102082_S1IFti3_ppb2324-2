@@ -72,7 +72,7 @@ class _MainPageState extends State<MainPage> {
                 child: Image.asset(
                   'assets/icons/home.png',
                   width: 24,
-                  color: _selectedIndex == 0 ? kBlueRibbon : kDarkGray,
+                  color: _selectedIndex == 0 ? kEgyptianBlue : kBlueRibbon,
                 ),
               ),
               label: 'Home',
@@ -80,19 +80,19 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
               icon: Container(
                 child: Image.asset(
-                  'assets/icons/portofolio.png',
+                  'assets/icons/portfolio.png',
                   width: 24,
-                  color: _selectedIndex == 1 ? kBlueRibbon : kDarkGray,
+                  color: _selectedIndex == 1 ? kOrange : kBlueRibbon,
                 ),
               ),
-              label: 'Portofolio',
+              label: 'Portfolio',
             ),
             BottomNavigationBarItem(
               icon: Container(
                 child: Image.asset(
                   'assets/icons/support.png',
                   width: 24,
-                  color: _selectedIndex == 2 ? kBlueRibbon : kDarkGray,
+                  color: _selectedIndex == 2 ? kRed : kBlueRibbon,
                 ),
               ),
               label: 'Support',
@@ -102,7 +102,7 @@ class _MainPageState extends State<MainPage> {
                 child: Image.asset(
                   'assets/icons/profile.png',
                   width: 24,
-                  color: _selectedIndex == 3 ? kBlueRibbon : kDarkGray,
+                  color: _selectedIndex == 3 ? kBlueRibbon : kEgyptianBlue,
                 ),
               ),
               label: 'Profile',
