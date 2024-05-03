@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262777397732",
+    "project_id": "prakflutterfirebase-dc3e4",
+    "storage_bucket": "prakflutterfirebase-dc3e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262777397732:android:a04850c977aafda9c6e7f1",
+        "android_client_info": {
+          "package_name": "com.example.pertemuan9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJOsTT5R12pXeRtsbpz5ZxrVG6jCht0Y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
