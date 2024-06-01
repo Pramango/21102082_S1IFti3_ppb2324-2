@@ -1,5 +1,5 @@
 import 'package:auth_firebase/bloc/login/login_cubit.dart';
-import 'package:auth_firebase/bloc/reguster/register_cubit.dart';
+import 'package:auth_firebase/bloc/register/register_cubit.dart';
 import 'package:auth_firebase/ui/home_screen.dart';
 import 'package:auth_firebase/ui/login.dart';
 import 'package:auth_firebase/ui/splash.dart';

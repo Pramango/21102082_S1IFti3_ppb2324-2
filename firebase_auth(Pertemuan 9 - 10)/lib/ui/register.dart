@@ -1,4 +1,4 @@
-import 'package:auth_firebase/bloc/reguster/register_cubit.dart';
+import 'package:auth_firebase/bloc/register/register_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../utils/routes.dart';
